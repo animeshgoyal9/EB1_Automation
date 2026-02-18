@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.animesh.email_outreach</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/animeshgoyal/Downloads/eb1_gemini/auto_script.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/animeshgoyal/Downloads/eb1_gemini</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/animeshgoyal/Downloads/eb1_gemini/launch_output.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/animeshgoyal/Downloads/eb1_gemini/launch_error.log</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>

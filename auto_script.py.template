@@ -1,0 +1,132 @@
+import pandas as pd
+import smtplib
+import time
+import os
+import random
+from datetime import datetime
+from email.message import EmailMessage
+
+# --- CONFIGURATION ---
+# TODO: Replace these with your actual credentials
+EMAIL_ADDRESS = "your_email@gmail.com"
+EMAIL_PASSWORD = "your_16_char_app_password_here"  # Get from Google Account > Security > 2-Step Verification > App passwords
+EXCEL_FILE = "additional_editors_200.csv"
+LOG_FILE = "dispatch_log.csv"
+
+EMAILS_PER_BATCH = 1
+HOURLY_INTERVAL = 120  # seconds between batches
+
+def initialize_log():
+    if not os.path.exists(LOG_FILE):
+        df = pd.DataFrame(columns=["Timestamp", "Name", "Email", "Journal", "Status"])
+        df.to_csv(LOG_FILE, index=False)
+
+def get_sent_emails():
+    if not os.path.exists(LOG_FILE):
+        return set()
+    try:
+        # CRITICAL FIX: on_bad_lines='skip' prevents the ParserError crash
+        df = pd.read_csv(LOG_FILE, on_bad_lines='skip', engine='python')
+        if df.empty: return set()
+        return set(df[df["Status"] == "Sent"]["Email"].astype(str).tolist())
+    except Exception as e:
+        print(f"Warning: Could not read log perfectly, skipping bad rows: {e}")
+        return set()
+
+def log_dispatch(name, email, journal, status):
+    """Safely appends a new line to the CSV without rewriting the whole file."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Clean the status/journal of any commas to prevent CSV corruption
+    clean_journal = str(journal).replace(",", ";")
+    clean_status = str(status).replace(",", ";")
+
+    with open(LOG_FILE, "a") as f:
+        f.write(f"{timestamp},{name},{email},{clean_journal},{clean_status}\n")
+
+def send_email(server, row):
+    msg = EmailMessage()
+    subject = f"Peer Review Application for {row['Journal']}"
+
+    body = f"""Dear Dr. {row['Name']},
+
+I am writing to express my interest in serving as a peer reviewer for {row['Journal']}, particularly for manuscripts in the areas of Machine Learning, Natural Language Processing, Reinforcement Learning, and Production AI Systems.
+
+I currently serve as a Data Scientist at Apple, where I lead ML initiatives for the AppleCare organization, managing platforms that serve over 400 million monthly customer interactions. My work involves implementing state-of-the-art architectures including BERT and Transformers, with measurable business impact exceeding $45M.
+
+Key Qualifications:
+- ACADEMIC BACKGROUND: M.S. in Operations Research & Industrial Engineering from UT Austin.
+- RESEARCH IMPACT: Published author in 'Production Planning & Control' (IF: 6.846). My research on integrated optimization frameworks has garnered 65 citations to date and has been adopted by 30+ companies across the USA.
+- INDUSTRY RECOGNITION: O-1 visa holder (extraordinary ability in sciences) with 7+ years of experience in production ML systems.
+- PREVIOUS EXPERIENCE: Led critical ML projects at SparkCognition (AI unicorn), including predictive maintenance systems with $2.1M+ annual savings.
+- ACTIVE PEER REVIEWER: Recently evaluated two research manuscripts on metaheuristic optimization and autonomous systems, contributing to maintaining publication standards in top-tier venue
+
+I am committed to providing thorough, constructive reviews with a typical turnaround of 10-14 days. I have registered my profile in the {row['Journal']} editorial system and am happy to provide my full CV or additional materials upon request.
+
+Thank you for your consideration. I look forward to contributing to the academic community through rigorous peer review.
+
+Best regards,
+
+Animesh Goyal
+Data Scientist, Apple Inc.
+M.S. Operations Research & Industrial Engineering, UT Austin"""
+
+    msg.set_content(body)
+    msg["Subject"] = subject
+    msg["From"] = EMAIL_ADDRESS
+    msg["To"] = row['Email']
+    server.send_message(msg)
+
+def run_master_scheduler():
+    initialize_log()
+    sent_list = get_sent_emails()
+
+    try:
+        # Load CSV file with encoding handling
+        master_list = pd.read_csv(EXCEL_FILE, encoding='utf-8', encoding_errors='ignore')
+        print(f"Total editors in CSV: {len(master_list)}")
+        print(f"Already sent to: {len(sent_list)} editors")
+
+        # Drop duplicates and rows already sent
+        pending_list = master_list[~master_list['Email'].isin(sent_list)]
+    except Exception as e:
+        print(f"Error reading CSV: {e}")
+        return True
+
+    if pending_list.empty:
+        print("Done! All editors have been contacted.")
+        return False
+
+    print(f"Remaining to send: {len(pending_list)} editors")
+    print(f"Starting batch of {EMAILS_PER_BATCH}...")
+
+    try:
+        server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+        server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+
+        batch = pending_list.head(EMAILS_PER_BATCH)
+        for _, row in batch.iterrows():
+            try:
+                send_email(server, row)
+                log_dispatch(row['Name'], row['Email'], row['Journal'], "Sent")
+                print(f"✅ Success: {row['Email']}")
+                time.sleep(random.randint(60, 120))
+            except Exception as e:
+                log_dispatch(row['Name'], row['Email'], row['Journal'], f"Error: {str(e)[:50]}")
+                print(f"❌ Error sending to {row['Email']}: {e}")
+
+        server.quit()
+    except Exception as e:
+        print(f"SMTP Server Error (will retry in 2 minutes): {e}")
+
+    return True
+
+if __name__ == "__main__":
+    while True:
+        try:
+            active = run_master_scheduler()
+            if not active: break
+        except Exception as e:
+            print(f"Top-level crash avoided: {e}")
+
+        print(f"Waiting 2 minutes...")
+        time.sleep(HOURLY_INTERVAL)

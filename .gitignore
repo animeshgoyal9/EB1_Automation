@@ -1,0 +1,38 @@
+# Sensitive files - DO NOT COMMIT
+auto_script.py
+dispatch_log.csv
+additional_editors_200.csv
+
+# Log files
+*.log
+launch_output.log
+launch_error.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
