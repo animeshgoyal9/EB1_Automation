@@ -28,8 +28,9 @@ This system automatically sends personalized peer review application emails to j
 ```
 eb1_gemini/
 ├── auto_script.py.template      # Template script (copy to auto_script.py and configure)
-├── additional_editors_200.csv   # Editor contact database (not in repo - create your own)
-├── dispatch_log.csv             # Email dispatch log (auto-generated)
+├── additional_editors_200.csv   # Editor contact database (507 editors included)
+├── editors.xlsx                 # Excel version of editor database
+├── dispatch_log.csv             # Email dispatch log (auto-generated, not in repo)
 ├── com.animesh.email_outreach.plist  # macOS LaunchAgent configuration
 ├── .gitignore                   # Protects sensitive files
 └── README.md                    # This file
@@ -117,7 +118,16 @@ To run automatically on macOS using LaunchAgent:
 
 ## 📊 Editor Database Format
 
-The `additional_editors_200.csv` file should contain:
+The repository includes a curated database of **507 journal editors** across top-tier academic journals in:
+- **Machine Learning**: JMLR, TMLR, IEEE TNNLS, NeurIPS, ICML
+- **Computer Vision**: IEEE TPAMI, CVPR
+- **Natural Language Processing**: ACL ARR, EMNLP, NAACL
+- **Operations Research**: EJOR, Operations Research, Management Science, INFORMS JoC
+- **Artificial Intelligence**: Artificial Intelligence Journal, JAIR, AAAI, IJCAI
+- **Applied Computing**: IEEE T-Cybernetics, Expert Systems, Knowledge-Based Systems
+- **And many more specialized journals**
+
+The `additional_editors_200.csv` file contains:
 
 ```csv
 Name,Email,Journal,Expertise
@@ -125,7 +135,14 @@ John Doe,editor@journal.org,IEEE TPAMI,Computer Vision
 Jane Smith,jsmith@university.edu,JMLR,Machine Learning
 ```
 
-**Important**: This file contains personal contact information and should NOT be committed to version control.
+The database includes editors from prestigious venues such as:
+- **IEEE Transactions** (TPAMI, T-Cybernetics, TNNLS, T-ITS)
+- **INFORMS Journals** (Operations Research, Management Science, MSOM)
+- **Elsevier Journals** (EJOR, Expert Systems, Omega, Pattern Recognition)
+- **Conference Series** (NeurIPS, ICML, CVPR, AAAI, IJCAI)
+- **Specialized Journals** (Cleaner Production, Transportation Science, and more)
+
+You can use this database as-is or customize it with additional contacts relevant to your research area.
 
 ## 📝 Email Template
 
@@ -143,9 +160,14 @@ Customize the email body in the `send_email()` function to match your credential
 ### Protected Files (Not in Git Repository)
 
 - `auto_script.py` - Contains your Gmail App Password
-- `additional_editors_200.csv` - Contains editor contact information
-- `dispatch_log.csv` - Contains operational data and email addresses
+- `dispatch_log.csv` - Contains operational data and sent email records
 - `*.log` files - Contain execution logs
+
+### Public Files (In Repository)
+
+- `additional_editors_200.csv` - Curated database of 507 journal editors (publicly available contact information)
+- `editors.xlsx` - Excel version of the editor database
+- All editor contact information is sourced from publicly available journal websites
 
 ### Best Practices
 

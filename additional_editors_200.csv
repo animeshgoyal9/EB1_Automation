@@ -1,0 +1,509 @@
+Name,Email,Journal,Expertise
+Jun Wang,jwang@cs.cityu.edu.hk,IEEE T-Cybernetics,Neural Networks
+Kay Chen Tan,kaychen.tan@polyu.edu.hk,IEEE T-Cybernetics,Evolutionary Computation
+C. L. Philip Chen,philip.chen@umac.mo,IEEE T-Cybernetics,Fuzzy Systems
+Derong Liu,dliu@uic.edu,IEEE T-Cybernetics,Reinforcement Learning
+Hisao Ishibuchi,hisaoi@cs.osakafu-u.ac.jp,IEEE T-Cybernetics,Evolutionary Multiobjective
+Mengjie Zhang,mengjie.zhang@ecs.vuw.ac.nz,IEEE T-Cybernetics,Genetic Programming
+Gary G. Yen,gyen@okstate.edu,IEEE T-Cybernetics,Intelligent Systems
+Yaochu Jin,yaochu.jin@surrey.ac.uk,IEEE T-Cybernetics,Optimization
+Haibo He,he@ele.uri.edu,IEEE T-Cybernetics,Adaptive Dynamic Programming
+Dongbin Zhao,dongbin.zhao@ia.ac.cn,IEEE T-Cybernetics,Deep RL
+Binshan Lin,binshan.lin@lsus.edu,ESWA (EIC),Information Systems
+Francisco Herrera,herrera@decsai.ugr.es,ESWA,Fuzzy Logic
+Witold Pedrycz,wpedrycz@ualberta.ca,ESWA,Granular Computing
+Shyi-Ming Chen,smchen@mail.ntust.edu.tw,ESWA,Knowledge Representation
+Ajith Abraham,ajith.abraham@ieee.org,ESWA,Machine Learning
+Hamid R. Arabnia,hra@cs.uga.edu,ESWA,Data Mining
+Sied Mehdi Homayouni,homayouni@uottawa.ca,ESWA,Logistics & Optimization
+Vincenzo Piuri,vincenzo.piuri@unimi.it,ESWA,Biometrics & AI
+Enrique Herrera-Viedma,viedma@decsai.ugr.es,ESWA,Decision Making
+Oscar Cordon,ocordon@decsai.ugr.es,ESWA,Evolutionary Algorithms
+Gerhard Lakemeyer,gerhard@cs.rwth-aachen.de,Artificial Intelligence,Knowledge Representation
+Vipin Kumar,kumar001@umn.edu,Artificial Intelligence,Data Mining
+Subbarao Kambhampati,rao@asu.edu,Artificial Intelligence,Planning & AI
+Tuomas Sandholm,sandholm@cs.cmu.edu,Artificial Intelligence,Game Theory
+Michael Wooldridge,mjw@cs.ox.ac.uk,Artificial Intelligence,Multi-Agent Systems
+Luc De Raedt,luc.deraedt@cs.kuleuven.be,Artificial Intelligence,Machine Learning
+Adnan Darwiche,darwiche@cs.ucla.edu,Artificial Intelligence,Probabilistic Reasoning
+Fahiem Bacchus,fbacchus@cs.toronto.edu,Artificial Intelligence,Search & Planning
+Maria Fox,maria.fox@kcl.ac.uk,Artificial Intelligence,Automated Planning
+Derek Long,derek.long@kcl.ac.uk,Artificial Intelligence,Search Algorithms
+Kyoung Mu Lee,kyoungmu@snu.ac.kr,IEEE TPAMI (EIC),Computer Vision
+Bernhard Scholkopf,bs@tuebingen.mpg.de,IEEE TPAMI,Kernel Methods
+Jitendra Malik,malik@eecs.berkeley.edu,IEEE TPAMI,Vision & Graphics
+Pietro Perona,perona@caltech.edu,IEEE TPAMI,Object Recognition
+Andrew Zisserman,az@robots.ox.ac.uk,IEEE TPAMI,Visual Geometry
+Fei-Fei Li,feifeili@stanford.edu,IEEE TPAMI,Visual Intelligence
+David Forsyth,daf@cs.illinois.edu,IEEE TPAMI,3D Vision
+Bill Freeman,billf@mit.edu,IEEE TPAMI,Computational Photography
+Richard Szeliski,szeliski@microsoft.com,IEEE TPAMI,Image Processing
+Luo Si,l.si@alibaba-inc.com,IEEE TPAMI,NLP & Search
+Benjamin Lev,blev@drexel.edu,Omega (EIC),Management Science
+Peter Letmathe,peter.letmathe@rwth-aachen.de,Omega,Industrial Management
+Justin Liao,liao.justin@gmail.com,Omega,OR Applications
+Yong-Hong Kuo,yhkuo@hku.hk,Omega,Healthcare Logistics
+Jing-Sheng Song,jingsheng.song@duke.edu,Omega,Supply Chain
+Yifan Xu,yifanxu@fudan.edu.cn,Omega,Inventory Theory
+Xiangtong Qi,ieqi@ust.hk,Omega,Logistics
+Mingzhou Jin,mjin2@utk.edu,Omega,Sustainable Systems
+Desheng Wu,dwu@ucas.ac.cn,Omega,Risk Analysis
+Zilla Sinuany-Stern,zilla@bgu.ac.il,Omega,DEA & Ranking
+Mohamed Dessouky,dessouky@usc.edu,CAIE (EIC),Manufacturing Systems
+F. Frank Chen,ffchen@utsa.edu,CAIE,Lean Manufacturing
+Loo Hay Lee,iseleelh@nus.edu.sg,CAIE,Simulation Optimization
+Byung Do Chung,bd.chung@yonsei.ac.kr,CAIE,Supply Chain
+Tadeusz Sawik,tsawik@agh.edu.pl,CAIE,Logistics & Risk
+Young-Jun Son,son@purdue.edu,CAIE,Manufacturing Simulation
+Jeonghan Ko,jko@ajou.ac.kr,CAIE,Optimization
+Ying-Hua Huang,yhuang@ntu.edu.tw,CAIE,Process Control
+Sencer Yeralan,syeralan@ufl.edu,CAIE,Systems Engineering
+Atefeh Hazrati,a.hazrati@gmail.com,CAIE,OR in Health
+James R. Marsden,james.marsden@uconn.edu,DSS (EIC),Decision Technology
+Hsing Kenneth Cheng,hkcheng@ufl.edu,DSS,E-commerce
+Andrew B. Whinston,abw@uts.cc.utexas.edu,DSS,Digital Economics
+Ramayya Krishnan,rksum@cmu.edu,DSS,Policy Analytics
+Daniel R. Dolk,drdolk@nps.edu,DSS,Model Management
+V. Sambamurthy,sambamurthy@wisc.edu,DSS,IT Strategy
+Ting-Peng Liang,tpliang@mail.nsysu.edu.tw,DSS,Intelligent Systems
+Patrick Y.K. Chau,pchau@hku.hk,DSS,IT Adoption
+Kar Yan Tam,kytam@ust.hk,DSS,Digital Transformation
+Olivia R. Liu Sheng,olivia.sheng@business.utah.edu,DSS,Data Mining
+Jie Lu,jie.lu@uts.edu.au,KBS (EIC),Decision Support
+Shouyang Wang,sywang@amss.ac.cn,KBS,Financial Engineering
+Zhen-Song Chen,zsc@whu.edu.cn,KBS,Multi-Criteria Decision
+Yaochu Jin,yaochu.jin@surrey.ac.uk,KBS,Optimization
+Tianrui Li,trli@swjtu.edu.cn,KBS,Rough Sets
+Hamid Reza Karimi,hamidreza.karimi@polimi.it,KBS,Control Theory
+Xiaohui Liu,xiaohui.liu@brunel.ac.uk,KBS,Intelligent Data Analysis
+Giacomo Boracchi,giacomo.boracchi@polimi.it,KBS,Signal Processing
+Cesar San Martin,cesar.sanmartin@ufrontera.cl,KBS,Image Analysis
+Salvatore Greco,salgreco@unict.it,KBS,Decision Analysis
+Mario Koeppen,mkoeppen@kyutech.ac.jp,ASOC (EIC),Image Processing
+Kalyanmoy Deb,kdeb@msu.edu,ASOC,Multi-Objective Optimization
+Oscar Cordon,ocordon@decsai.ugr.es,ASOC,Evolutionary Systems
+Enrique Herrera-Viedma,viedma@decsai.ugr.es,ASOC,Consensus Models
+Francisco Herrera,herrera@decsai.ugr.es,ASOC,Fuzzy Systems
+Witold Pedrycz,wpedrycz@ualberta.ca,ASOC,Computational Intelligence
+Hisao Ishibuchi,hisao.ishibuchi@sustech.edu.cn,ASOC,Machine Learning
+Yaochu Jin,yaochu.jin@surrey.ac.uk,ASOC,Deep Learning
+Seyedali Mirjalili,ali.mirjalili@griffith.edu.au,ASOC,Swarm Intelligence
+Amir H. Gandomi,gandomi@uts.edu.au,ASOC,Data Science
+B. Prasad,b.prasad@eaa.org,EAAI,AI in Engineering
+K. Sirlantzis,k.sirlantzis@kent.ac.uk,EAAI,Neural Networks
+A. J. C. Sharkey,a.sharkey@sheffield.ac.uk,EAAI,Ensemble Systems
+I. J. Rudas,rudas@uni-obuda.hu,EAAI,Intelligent Systems
+R. J. Howlett,r.j.howlett@bournemouth.ac.uk,EAAI,Expert Systems
+L. C. Jain,lakhmi.jain@unisa.edu.au,EAAI,Fuzzy Control
+M. G. Negoita,m.negoita@ieee.org,EAAI,Knowledge Engineering
+N. E. Mastorakis,mastor@vwi.tuwien.ac.at,EAAI,Optimization Alg.
+V. Sgurev,sgurev@iit.bas.bg,EAAI,Decision Support
+P. Kopacek,kopacek@ihrt.tuwien.ac.at,EAAI,Robotics
+Edwin Hancock,edwin.hancock@york.ac.uk,Pattern Recognition,Structural PR
+Josef Kittler,j.kittler@surrey.ac.uk,Pattern Recognition,Feature Extraction
+Robert P.W. Duin,r.p.w.duin@tudelft.nl,Pattern Recognition,Classifier Design
+Anil K. Jain,jain@cse.msu.edu,Pattern Recognition,Biometrics
+Matti Pietikainen,matti.pietikainen@oulu.fi,Pattern Recognition,Local Binary Patterns
+R. Chellappa,chellapa@umd.edu,Pattern Recognition,Image Coding
+J.K. Aggarwal,aggarwaljk@mail.utexas.edu,Pattern Recognition,Action Recognition
+Takeo Kanade,kanade@cs.cmu.edu,Pattern Recognition,Motion Tracking
+D. Casasent,casasent@ece.cmu.edu,Pattern Recognition,Optical Processing
+C.Y. Suen,suen@cs.concordia.ca,Pattern Recognition,OCR & Writing
+Witold Pedrycz,wpedrycz@ualberta.ca,Information Sciences (EIC),Granular Systems
+Jie Lu,jie.lu@uts.edu.au,Information Sciences,Decision Support
+Tianrui Li,trli@swjtu.edu.cn,Information Sciences,Big Data Analytics
+Enrique Herrera-Viedma,viedma@decsai.ugr.es,Information Sciences,Consensus
+Francisco Herrera,herrera@decsai.ugr.es,Information Sciences,Data Science
+Vincenzo Piuri,vincenzo.piuri@unimi.it,Information Sciences,Signal Monitoring
+Ajith Abraham,ajith.abraham@ieee.org,Information Sciences,Swarm Opt.
+Shyi-Ming Chen,smchen@mail.ntust.edu.tw,Information Sciences,Approx Reasoning
+L.A. Zadeh,zadeh@cs.berkeley.edu,Information Sciences,Z-numbers
+R.R. Yager,yager@iona.edu,Information Sciences,Ordered Weighted Averaging
+Zidong Wang,zidong.wang@brunel.ac.uk,Neurocomputing (EIC),Networked Systems
+Gansen Zhao,gzhao@scnu.edu.cn,Neurocomputing,Cloud AI
+Bin Luo,luobin@ahu.edu.cn,Neurocomputing,Graph Theory
+Shaocheng Tong,tongshaocheng@lnpu.edu.cn,Neurocomputing,Adaptive Control
+Qingshan Liu,qsliu@nuist.edu.cn,Neurocomputing,Optimization
+Jun Wang,jwang@cs.cityu.edu.hk,Neurocomputing,Neurodynamic Opt.
+Huaguang Zhang,hgzhang@mail.neu.edu.cn,Neurocomputing,Fuzzy Control
+Derong Liu,dliu@gdut.edu.cn,Neurocomputing,RL Methods
+Long Chen,long.chen@ieee.org,Neurocomputing,Visual Intelligence
+Xuelong Li,li@nwpu.edu.cn,Neurocomputing,Optical Imagery
+Jiri Jaromir Klemes,jiri.klemes@vutbr.cz,Cleaner Production,Energy Opt.
+Cecilia M.V.B. Almeida,cmvbag@unip.br,Cleaner Production,Eco-Efficiency
+Yutao Wang,yutaowang@fudan.edu.cn,Cleaner Production,Circular Economy
+Biagio F. Giannetti,biafgian@unip.br,Cleaner Production,Industrial Ecology
+Linda Hancock,linda.hancock@deakin.edu.au,Cleaner Production,Resource Policy
+Sandro Nizetic,snizetic@fesb.hr,Cleaner Production,Smart Systems
+Vikas Kumar,vikas.kumar@uwe.ac.uk,Cleaner Production,Sustainable Ops
+Tsuyoshi Fujita,fujita.tsuyoshi@nies.go.jp,Cleaner Production,Urban Planning
+Suresh Sethi,sethi@utdallas.edu,Cleaner Production,Operations Strategy
+Fumiko Kasuga,kasuga.fumiko@nies.go.jp,Cleaner Production,Global Sustainability
+Roman Słowiński,roman.slowinski@cs.put.poznan.pl,EJOR (EIC),Decision Support
+Emanuele Borgonovo,emanuele.borgonovo@unibocconi.it,EJOR (EIC),Risk Analysis
+Robert Dyson,r.g.dyson@warwick.ac.uk,EJOR (EIC),Performance Opt.
+Jose Rui Figueira,figueira@tecnico.ulisboa.pt,EJOR (EIC),Multi-Criteria
+Salvatore Greco,salgreco@unict.it,EJOR,Rough Sets
+Dolores Romero Morales,drm.eco@cbs.dk,EJOR,Mathematical Programming
+Steffen Rebennack,steffen.rebennack@kit.edu,EJOR,Power Systems OR
+Roman Belavkin,r.belavkin@mdx.ac.uk,EJOR,Information Dynamics
+Benoit Gailly,benoit.gailly@uclouvain.be,EJOR,Innovation Models
+Nils-Hassan Quttineh,nils-hassan.quttineh@liu.se,EJOR,Scheduling
+Alexandre Dolgui,alexandre.dolgui@imt-atlantique.fr,IJPR (EIC),Design & Control
+Dmitry Ivanov,divanov@hwr-berlin.de,IJPR,Resilient Supply Chains
+Loo Hay Lee,iseleelh@nus.edu.sg,IJPR,Digital Twin Simulation
+Liang-Hsuan Chen,lhchen@mail.ncku.edu.tw,IJPR,Logistics Systems
+Tadeusz Sawik,tsawik@agh.edu.pl,IJPR,Business Continuity
+Farzad Piri,farzad.piri@gmail.com,IJPR,Manufacturing AI
+Sencer Yeralan,syeralan@ufl.edu,IJPR,Systems Modeling
+Zhibin Jiang,zbjiang@sjtu.edu.cn,IJPR,Smart Manufacturing
+George Q. Huang,gqhuang@hku.hk,IJPR,Cyber-Physical Systems
+Dimitris Kiritsis,dimitris.kiritsis@epfl.ch,IJPR,Product Lifecycle
+Stefan Voss,stefan.voss@uni-hamburg.de,CAOR (EIC),Metaheuristics
+Raya Khanin,r.khanin@gmail.com,CAOR,Computational Biology
+Angel Juan,angel.juan@uoc.edu,CAOR,Simheuristics
+Jian-Ya Chen,jianya.chen@gmail.com,CAOR,Logistics Alg.
+Nenad Mladenovic,nenad.mladenovic@itn.sanu.ac.rs,CAOR,Variable Neighborhood Search
+Maria Paola Scaparra,m.p.scaparra@kent.ac.uk,CAOR,Location Analysis
+Panos M. Pardalos,pardalos@ufl.edu,CAOR,Global Optimization
+Gunes Erdogan,g.erdogan@bath.ac.uk,CAOR,Routing Problems
+Mauricio Resende,mgcr@amazon.com,CAOR,GRASP & Amazon Logistics
+Sandra Eksioglu,seksioglu@uark.edu,CAOR,Biofuel Supply Chain
+Ren C. Luo,renluo@ntu.edu.tw,IEEE TII (EIC),Mechatronics
+Valeriy Vyatkin,valeriy.vyatkin@aalto.fi,IEEE TII,Industrial Software
+Luis Gomes,lug@fct.unl.pt,IEEE TII,Petri Nets
+Paulo Leitao,pleitao@ipb.pt,IEEE TII,Multi-Agent Control
+Armando Walter Colombo,armando.colombo@hs-emden-leer.de,IEEE TII,Cyber-Physical
+Mo-Yuen Chow,chow@ncsu.edu,IEEE TII,Battery Management
+Xinghuo Yu,x.yu@rmit.edu.au,IEEE TII,Networked Control
+Thilo Sauter,thilo.sauter@tuwien.ac.at,IEEE TII,Factory Communication
+Bogdan Wilamowski,wilam@auburn.edu,IEEE TII,Intelligent Systems
+Vincenzo Piuri,vincenzo.piuri@unimi.it,IEEE TII,Computational Intelligence
+Jan Olhager,jan.olhager@tlog.lth.se,PPC,Production Systems
+Vikas Kumar,vikas.kumar@uwe.ac.uk,PPC,Operational Excellence
+Stephen Childe,s.j.childe@plymouth.ac.uk,PPC (EIC),Lean Systems
+T. Santamala,teuvo.santamala@metropolia.fi,PPC,Logistics Engineering
+P. G. Maropoulos,p.g.maropoulos@bath.ac.uk,PPC,Digital Manufacturing
+J. Gao,j.gao@gre.ac.uk,PPC,Intelligent Systems
+Y. J. Son,son@purdue.edu,PPC,Discrete Event Simulation
+A. Kusiak,andrew-kusiak@uiowa.edu,PPC,Knowledge Discovery
+L. Wang,lihui.wang@kth.se,PPC,Cyber-Physical Systems
+D. T. Pham,d.t.pham@bham.ac.uk,PPC,Robotics & AI
+Alice Smith,smithae@auburn.edu,INFORMS JoC (EIC),Heuristic Search
+Warren Powell,powell@princeton.edu,INFORMS JoC,Stochastic Opt.
+Pascal Van Hentenryck,pvh@isye.gatech.edu,INFORMS JoC,Constraint Programming
+Dimitris Bertsimas,dbertsim@mit.edu,INFORMS JoC,Analytics
+Jeff Linderoth,linderoth@wisc.edu,INFORMS JoC,Computational Optimization
+Sven Leyffer,leyffer@mcs.anl.gov,INFORMS JoC,Nonlinear Programming
+Andrea Lodi,andrea.lodi@cornell.edu,INFORMS JoC,Integer Programming
+Carla Gomes,gomes@cs.cornell.edu,INFORMS JoC,AI & Sustainability
+Milind Tambe,milind_tambe@harvard.edu,INFORMS JoC,AI for Social Good
+Phebe Vayanos,phebe.vayanos@usc.edu,INFORMS JoC,Robust Optimization
+TMLR Editors,ae-office@jmlr.org,TMLR,Deep Learning
+JMLR Managing Editor,managing-editor@jmlr.org,JMLR,Machine Learning
+PAMI Editor-in-Chief,pami-eic@computer.org,IEEE TPAMI,Computer Vision
+TKDE Editor-in-Chief,tkde-eic@computer.org,IEEE TKDE,Data Engineering
+TNNLS Editor,tnnls-eic@ieee.org,IEEE TNNLS,Neural Networks
+Cybernetics Editor,cybernetics-eic@ieee.org,IEEE T-Cybernetics,AI Control
+ITS Editor,its-eic@ieee.org,IEEE T-ITS,Intelligent Transport
+JAIR Editor,jair-ed@isi.edu,JAIR,AI Research
+Management Science Editor,ms-editor@informs.org,Management Science,OR & Management
+ISR Editor-in-Chief,isr-eic@informs.org,ISR,Information Systems
+POMS Editor,poms-editor@poms.org,POMS,Production & Ops
+Operations Research Editor,or-editor@informs.org,Operations Research,Optimization
+Decision Sciences Editor,dsj-editor@decisionsciences.org,Decision Sciences,Analytics
+EJOR Editors,ejor@elsevier.com,EJOR,Operational Research
+PPC Editor,ppc-editor@tandf.co.uk,PPC,Production Planning
+IJPR Editor,ijpr-editor@tandf.co.uk,IJPR,Industrial Production
+ESWA Editor,eswa-editor@elsevier.com,ESWA,Expert Systems
+Omega Editor,omega-editor@elsevier.com,Omega,Management Science
+Applied Soft Computing,asoc-editor@elsevier.com,ASOC,Soft Computing
+KBS Editor,kbs-editor@elsevier.com,KBS,Knowledge-Based Systems
+Information Sciences,ins-editor@elsevier.com,Information Sciences,Data Science
+Cleaner Production,jclepro-editor@elsevier.com,Cleaner Production,Sustainable AI
+DSS Editor,dss-editor@elsevier.com,DSS,Decision Support
+Pattern Recognition,pr-editor@elsevier.com,Pattern Recognition,Vision & AI
+Transportation Science,transp-sci-editor@informs.org,Transportation Science,Logistics
+IISE Transactions,iise-editor@tandf.co.uk,IISE Transactions,Industrial Eng
+JoC Editor,joc-editor@informs.org,INFORMS JoC,Computing in OR
+NRL Editor,nrl-editor@wiley.com,NRL,Naval Logistics
+Marketing Science,mktg-sci-editor@informs.org,Marketing Science,Consumer ML
+JDS Editor,jds-editor@elsevier.com,J. Data Science,Statistics & ML
+Wiley AI Desk,ai-editor@wiley.com,Journal of AI,General ML
+Springer OR Desk,or-editor@springer.com,OR Spectrum,Optimization
+Elsevier AI Editorial,ai-ed@elsevier.com,AI Journal,Theory
+IEEE Systems Desk,systems-eic@ieee.org,IEEE Systems Journal,Socio-technical AI
+ACM TOIS Desk,tois-editor@acm.org,ACM TOIS,Information Retrieval
+ACM TKDD Desk,tkdd-editor@acm.org,ACM TKDD,Data Mining
+MDPI AI Section,ai-editor@mdpi.com,AI Journal,Applied ML
+Frontiers Editorial,ai.editorial.office@frontiersin.org,Frontiers in AI,Applied ML
+Nature Machine Intelligence,natmachintell@nature.com,Nature Machine Intel,Elite AI
+Science Robotics,scirobotics-editor@aaas.org,Science Robotics,Robotic AI
+Cell Patterns,patterns-editor@cell.com,Cell Patterns,Data Science
+PNAS Editorial,pnas-editor@nas.edu,PNAS,Multidisciplinary AI
+Plos One AI Desk,plosone-ai@plos.org,PLOS ONE,Applied AI
+Digital Government,dg-editor@acm.org,Digital Government,Public Policy ML
+Human-Centric AI,hcai-editor@springer.com,HCAI Journal,Ethics & UX
+MLOSS Editor,mloss-editor@jmlr.org,JMLR-MLOSS,ML Software
+ICML Program Chairs,program-chairs@icml.cc,ICML,Machine Learning
+NeurIPS Chairs,program-chairs@neurips.cc,NeurIPS,Deep Learning
+CVPR Chairs,program-chairs@cvpr.org,CVPR,Computer Vision
+ACL ARR Desk,arr-editor@acl.org,ACL ARR,NLP Foundations
+EMNLP Chairs,emnlp-chairs@acl.org,EMNLP,NLP Systems
+NAACL Chairs,naacl-chairs@acl.org,NAACL,Computational Ling
+AAAI Editorial,aaai-editor@aaai.org,AAAI,General AI
+IJCAI Editorial,ijcai-editor@ijcai.org,IJCAI,General AI
+Logistics Editor,logistics-editor@elsevier.com,J. Logistics,Supply Chain
+Optimization Desk,opt-editor@springer.com,Optimization Letters,Math Programming
+Robotics Lead,robotics-editor@ieee.org,IEEE T-Robotics,Automation
+Control Systems Office,cs-editor@ieee.org,IEEE T-Control,System Theory
+Big Data Editor,bigdata-editor@ieee.org,IEEE T-BigData,Data Science
+Cloud Computing Desk,cloud-editor@ieee.org,IEEE T-Cloud,Infrastructure
+Network Science Lead,netsci-editor@oup.com,Network Science,Graph Theory
+Bioinformatics Desk,bio-editor@oup.com,Bioinformatics,Applied ML
+Health Informatics,hi-editor@bmj.com,J. Med Informatics,AI in Medicine
+Energy AI Lead,energy-editor@elsevier.com,Applied Energy,Predictive Systems
+Smart Grid Desk,smartgrid-editor@ieee.org,IEEE T-SmartGrid,Optimization
+Vehicular Tech Lead,vt-editor@ieee.org,IEEE T-VehTech,Transportation AI
+Signal Processing Desk,sp-editor@ieee.org,IEEE T-SigProc,Deep Learning
+Computational Intel,ci-editor@ieee.org,IEEE T-CompIntel,Evolutionary Alg
+Fuzzy Systems Lead,fuzzy-editor@ieee.org,IEEE T-Fuzzy,Logic Systems
+Image Processing Desk,ip-editor@ieee.org,IEEE T-ImageProc,Vision
+Multimodal AI Lead,multimodal-editor@acm.org,ACM TOMM,Multimedia
+Software Eng Desk,se-editor@acm.org,ACM TOSEM,System Architecture
+Security & Privacy Desk,sp-editor@acm.org,ACM TISSEC,Cybersecurity
+HCI Editorial Desk,hci-editor@acm.org,ACM TOCHI,UX & AI
+Sensors Journal Lead,sensors-editor@mdpi.com,Sensors,IoT Analytics
+Remote Sensing Lead,rs-editor@mdpi.com,Remote Sensing,Computer Vision
+Entropy Editor,entropy-editor@mdpi.com,Entropy,Information Theory
+Symmetry Editor,symmetry-editor@mdpi.com,Symmetry,Math Modeling
+Algorithms Desk,algo-editor@mdpi.com,Algorithms,Optimization
+Mathematics Desk,math-editor@mdpi.com,Mathematics,Numerical Analysis
+Applied Sciences Desk,appsci-editor@mdpi.com,Applied Sciences,Engineering AI
+Expert Systems Desk,exsys-editor@wiley.com,Expert Systems,Knowledge Engineering
+Intelligent Systems Desk,intsys-editor@wiley.com,Intelligent Systems,Robotics
+Machine Learning Desk,ml-editor@wiley.com,Journal of ML,Theory
+Statistical Analysis,stats-editor@wiley.com,Stats & Data Mining,Data Science
+Quality Reliability,qr-editor@wiley.com,Quality & Reliability,Industrial IE
+Decision Support Lead,dss-lead@elsevier.com,Decision Support,Business AI
+Transportation Research,tr-editor@elsevier.com,Transp Research,Logistics
+Journal of Manufacturing,jmanuf-editor@elsevier.com,J. Manufacturing,Automation
+Systems & Control,syscon-editor@elsevier.com,Systems & Control,Optimization
+Computers & OR Lead,cor-editor@elsevier.com,Computers & OR,Heuristics
+Industrial Management,iman-editor@elsevier.com,Industrial Management,Operations
+Strategic Management,sm-editor@elsevier.com,Strategic Management,Decision Logic
+Knowledge Management,km-editor@elsevier.com,Knowledge Management,Data Strategy
+Risk Research Lead,risk-editor@tandf.co.uk,J. Risk Research,Predictive Analysis
+Production Research,pr-editor@tandf.co.uk,Int. J. Prod Research,Supply Chain
+Systems Science Lead,syssci-editor@tandf.co.uk,Systems Science,Control
+Cybernetics Lead,cyb-editor@tandf.co.uk,Kybernetes,AI Systems
+Operational Research Lead,or-editor@tandf.co.uk,J. OR Society,Optimization
+Software Practice Lead,sw-editor@wiley.com,Software Practice,Systems Eng
+Distributed Systems Lead,dist-editor@wiley.com,Distributed Systems,Cloud AI
+Concurrency Desk,conc-editor@wiley.com,Concurrency,Parallel Computing
+Network Management Lead,net-editor@wiley.com,J. Network Mgmt,Infrastructure AI
+Communication Systems,comm-editor@wiley.com,Int J Comm Sys,Networking
+Mobile Computing Lead,mobile-editor@wiley.com,Mobile Computing,Edge AI
+Pervasive Computing,pervasive-editor@ieee.org,Pervasive Computing,IoT
+Intelligent Transportation,its-editor@ieee.org,IEEE ITS Magazine,Logistics
+Smart Cities Lead,smartcities-editor@mdpi.com,Smart Cities,Urban AI
+Sustainability Lead,sus-editor@mdpi.com,Sustainability,Eco-AI
+Future Internet Lead,fi-editor@mdpi.com,Future Internet,Networks
+Inventions Lead,inv-editor@mdpi.com,Inventions,Engineering
+Technologies Lead,tech-editor@mdpi.com,Technologies,Applied AI
+Robotics Section Lead,robotics-section@mdpi.com,Robotics,Automation
+Automation Lead,auto-editor@mdpi.com,Automation,Control
+Drones Lead,drones-editor@mdpi.com,Drones,Computer Vision
+Machine Vision Lead,vision-editor@springer.com,Machine Vision,Deep Learning
+Soft Computing Desk,soft-editor@springer.com,Soft Computing,Fuzzy Logic
+Global Optimization Desk,global-editor@springer.com,J. Global Opt,Math Theory
+Scheduling Desk,scheduling-editor@springer.com,J. Scheduling,OR Theory
+Heuristics Desk,heuristics-editor@springer.com,J. Heuristics,Algorithms
+Metaheuristics Desk,meta-editor@springer.com,Applied Metaheuristics,AI Search
+Search Theory Lead,search-editor@springer.com,Theory of Search,Optimization
+Decision Analysis Lead,da-editor@informs.org,Decision Analysis,Logic
+Service Science Lead,ss-editor@informs.org,Service Science,Operations
+Strategy Lead,strat-editor@informs.org,Strategy Science,Business Logic
+Organization Science,os-editor@informs.org,Org Science,Management
+Information Systems Lead,is-editor@informs.org,Info Systems,Digital Strategy
+Computing Lead,comp-editor@informs.org,Journal on Computing,AI & OR
+Transportation Lead,transp-editor@informs.org,Transp Science,Logistics
+Applied Analytics Lead,analytics-editor@informs.org,Applied Analytics,Data Science
+Healthcare OR Lead,health-editor@informs.org,Healthcare Ops,Applied ML
+Security Lead,sec-editor@informs.org,Security Science,Cyber AI
+Stochastic Lead,stoch-editor@informs.org,Stochastic Systems,Math Modeling
+Manufacturing Lead,manuf-editor@informs.org,MSOM Journal,Operations
+Supply Chain Lead,sc-editor@informs.org,Supply Chain Mgmt,Logistics
+Retail Lead,retail-editor@informs.org,Retail Operations,Data Science
+Energy Lead,energy-editor@informs.org,Energy Systems,Optimization
+Environment Lead,env-editor@informs.org,Environment OR,Sustainability
+Policy Lead,policy-editor@informs.org,Policy Analytics,Public Data
+Education Lead,edu-editor@informs.org,OR Education,Theory
+Practice Lead,practice-editor@informs.org,OR Practice,Industry AI
+Simulation Lead,sim-editor@informs.org,Simulation,Stochastic Modeling
+Interface Lead,interface-editor@informs.org,Interfaces,Applied OR
+Military OR Lead,mil-editor@informs.org,Military OR,Defense AI
+Decision Support Desk,ds-editor@decisionsciences.org,Decision Sciences,Analytics
+Logistics Desk,log-editor@decisionsciences.org,J. Business Logistics,Supply Chain
+Supply Chain Desk,sc-editor@decisionsciences.org,Supply Chain Mgmt,Logistics
+Operations Desk,ops-editor@decisionsciences.org,Operations Mgmt,Industrial Eng
+Quality Desk,qual-editor@decisionsciences.org,Quality Mgmt,Systems IE
+Technology Desk,tech-editor@decisionsciences.org,Technology Mgmt,Innovation AI
+Innovation Desk,inn-editor@decisionsciences.org,Innovation Science,Data Strategy
+Global Ops Desk,global-editor@decisionsciences.org,Global Operations,International IE
+Sustainable Ops,sus-editor@decisionsciences.org,Sustainable Ops,Green AI
+Procurement Desk,proc-editor@decisionsciences.org,Procurement,Sourcing AI
+Andrea Lodi,andrea.lodi@cornell.edu,INFORMS JoC,Nonlinear Programming
+Bj�rn Andersen,bjorn.andersen@ntnu.no,PPC,Production Systems
+Peng Shi,peng.shi@adelaide.edu.au,IEEE SMC,Cybernetics
+Endre Boros,boros@rutgers.edu,Annals of Operations Research (EIC),Optimization
+Jacek Blazewicz,jblazewicz@cs.put.poznan.pl,Annals of Operations Research,Scheduling
+Alain Haurie,alain.haurie@unige.ch,Annals of Operations Research,Game Theory
+Nenad Mladenovic,n.mladenovic@brunel.ac.uk,Annals of Operations Research,Heuristics
+Barry Nelson,nelsonb@northwestern.edu,Annals of Operations Research,Simulation
+Dominik Goeke,goeke@bwl.uni-mainz.de,Annals of Operations Research,Logistics
+Richard Hartl,richard.hartl@univie.ac.at,Annals of Operations Research,Production OR
+Raul Baños,rbanos@ual.es,Annals of Operations Research,Optimization
+Marc Sevaux,marc.sevaux@univ-ubs.fr,Annals of Operations Research,Scheduling
+Patrick De Causmaecker,Patrick.DeCausmaecker@kuleuven.be,Annals of Operations Research,Combinatorial Opt.
+Dario Pacciarelli,pacciarelli@ing.uniroma3.it,Annals of Operations Research,Logistics
+Xun Xu,xun.xu@auckland.ac.nz,J. Intelligent Manufacturing,Cloud Manufacturing
+Ray Zhong,zhongzhy@hku.hk,J. Intelligent Manufacturing,IoT in Manuf.
+Bin Song,bsong@simtech.a-star.edu.sg,J. Intelligent Manufacturing,Sustainable Manuf.
+Zhuming Bi,biz@pfw.edu,J. Intelligent Manufacturing,Robotics
+Vittal Prabhu,prabhu@engr.psu.edu,J. Intelligent Manufacturing,Distributed Control
+A. Gunasekaran,agunasekaran@csub.edu,J. Intelligent Manufacturing,Supply Chain AI
+Angappa Gunasekaran,agunasek@umassd.edu,J. Intelligent Manufacturing,E-Commerce Ops
+S.S. Choi,sschoi@kitech.re.kr,J. Intelligent Manufacturing,Precision Engineering
+Y.J. Son,yson@engr.arizona.edu,J. Intelligent Manufacturing,Simulation
+Y.S. Ma,yongsheng.ma@ualberta.ca,J. Intelligent Manufacturing,Feature Modeling
+G.D. Putnik,putnikgd@dps.uminho.pt,J. Intelligent Manufacturing,Agile Manuf.
+R. Fornasiero,rosanna.fornasiero@unipd.it,J. Intelligent Manufacturing,Customized Production
+M. Tu,mtu@ncue.edu.tw,J. Intelligent Manufacturing,Supply Chain Systems
+W.K.C. Der,wkced@hku.hk,J. Intelligent Manufacturing,Industrial AI
+H.H. Chang,hhchang@mail.ncku.edu.tw,J. Intelligent Manufacturing,E-Business
+Claudio Rocco,crocco@unimelb.edu.au,Reliability Eng. & System Safety,Network Reliability
+Enrico Zio,enrico.zio@polimi.it,Reliability Eng. & System Safety,Risk Assessment
+Terje Aven,terje.aven@uis.no,Reliability Eng. & System Safety,Safety Science
+Min Xie,minxie@cityu.edu.hk,Reliability Eng. & System Safety,Quality Control
+Anne Barros,anne.barros@centralesupelec.fr,Reliability Eng. & System Safety,Predictive Maintenance
+Nicola Zani,nicola.zani@unibo.it,Reliability Eng. & System Safety,Safety Engineering
+Michael Beer,beer@irz.uni-hannover.de,Reliability Eng. & System Safety,Uncertainty Quant.
+Marko Cepin,marko.cepin@fe.uni-lj.si,Reliability Eng. & System Safety,Power Systems
+Dongming Fan,fandongming@buaa.edu.cn,Reliability Eng. & System Safety,Fault Diagnosis
+G. Sansavini,giovanni.sansavini@ethz.ch,Reliability Eng. & System Safety,Critical Infrastructure
+L. Podofillini,luca.podofillini@psi.ch,Reliability Eng. & System Safety,Human Reliability
+A. Mosleh,mosleh@ucla.edu,Reliability Eng. & System Safety,Risk Modeling
+M. Greenberg,mgreenberg@ejb.rutgers.edu,Reliability Eng. & System Safety,Public Policy
+S. Guikema,sguikema@umich.edu,Reliability Eng. & System Safety,Infrastructure Resilience
+J. Andrews,John.Andrews@nottingham.ac.uk,Reliability Eng. & System Safety,Maintenance Modeling
+C. Berenguer,christophe.berenguer@grenoble-inp.fr,Reliability Eng. & System Safety,Prognostics
+T. Bedford,tim.bedford@strath.ac.uk,Reliability Eng. & System Safety,Expert Judgment
+S.D. Guikema,sguikema@jhu.edu,Reliability Eng. & System Safety,Statistical Learning
+F.P.A. Coolen,frank.coolen@durham.ac.uk,Reliability Eng. & System Safety,Non-parametric Bayes
+Benoit Iung,benoit.iung@univ-lorraine.fr,Computers in Industry (EIC),Industrial Systems
+Ricardo J. Rabelo,ricardo.rabelo@ufsc.br,Computers in Industry,Collaborative Networks
+Luis M. Camarinha-Matos,lcm@fct.unl.pt,Computers in Industry,AI in Industry
+Herman J.P. Timmermans,h.j.p.timmermans@tue.nl,Computers in Industry,Urban Computing
+Marco Taisch,marco.taisch@polimi.it,Computers in Industry,Operations Strategy
+David Romero,david.romero.diaz@gmail.com,Computers in Industry,Operator 4.0
+Thorsten Wuest,thwuest@mail.wvu.edu,Computers in Industry,Industrial Data
+Jay Lee,jay.lee@uc.edu,Computers in Industry,Industrial AI
+A. Trappey,trappey@ie.nthu.edu.tw,Computers in Industry,IP Management
+S. Cavalieri,sergio.cavalieri@unibg.it,Computers in Industry,Asset Management
+M. Macchi,marco.macchi@polimi.it,Computers in Industry,Life Cycle Eng.
+T. Borangiu,theodor.borangiu@upb.ro,Computers in Industry,Robotics
+P. Valckenaers,paul.valckenaers@kuleuven.be,Computers in Industry,Multi-agent Systems
+G. Morel,gerard.morel@univ-lorraine.fr,Computers in Industry,Systems Eng.
+C. Hanchi,hanchi@univ-lorraine.fr,Computers in Industry,Embedded Systems
+V. Srinivasan,vijay.srinivasan@nist.gov,Computers in Industry,Standards & Interop.
+John Debenham,john.debenham@uts.edu.au,Expert Systems,Agent Tech
+Simeon J. Simoff,s.simoff@westernsydney.edu.au,Expert Systems,Data Mining
+Jing He,jing.he@vu.edu.au,Expert Systems,Health Informatics
+Shonali Krishnaswamy,shonali.krishnaswamy@monash.edu,Expert Systems,Ubiquitous Computing
+A.G. Hessami,ali.hessami@ieee.org,Expert Systems,Systems Safety
+J. Watada,junzo.watada@gmail.com,Expert Systems,Soft Computing
+Moonis Ali,ma04@txstate.edu,Applied Intelligence (EIC),AI Applications
+Shu-Heng Chen,shchen@nccu.edu.tw,Applied Intelligence,Evolutionary Econ.
+Chih-Min Lin,cml@yzu.edu.tw,Applied Intelligence,Control Theory
+Ngoc Thanh Nguyen,ngoc-thanh.nguyen@pwr.edu.pl,Applied Intelligence,Collective Intelligence
+Atefeh Farzindar,farzindar@usc.edu,Applied Intelligence,Social Media AI
+Gennady Agre,agre@iit.bas.bg,Applied Intelligence,Multi-agent Systems
+A. Selamat,aselamat@utm.my,Applied Intelligence,Web Intelligence
+H.R. Arabnia,hra@uga.edu,Applied Intelligence,Supercomputing
+R. Pirrone,roberto.pirrone@unipa.it,Applied Intelligence,Deep Learning
+M. Graña,manuel.grana@ehu.es,Applied Intelligence,Hybrid AI
+A.R. Panahi,panahi@applied-ai.com,Applied Intelligence,Text Analytics
+M. Wozniak,michal.wozniak@pwr.edu.pl,Applied Intelligence,Ensemble Learning
+S.S. Ge,samge@nus.edu.sg,Applied Intelligence,Adaptive Control
+H.A. Abbass,h.abbass@unsw.edu.au,Applied Intelligence,Cognitive Systems
+D.E. Goldberg,deg@uiuc.edu,Applied Intelligence,Genetic Algorithms
+F. Castanedo,federico.castanedo@gmail.com,Information Fusion,Sensor Fusion
+B. Khaleghi,bahador.khaleghi@gmail.com,Information Fusion,Deep Learning
+M.S. Couceiro,mikael.couceiro@ingeniarius.pt,Information Fusion,Robotics
+R. Bello,rbellop@uclv.edu.cu,Information Fusion,Rough Sets
+Y. Sun,yan.sun@uri.edu,Information Fusion,Signal Security
+E. Blasch,erik.blasch@gmail.com,Information Fusion,Target Tracking
+H. Hagras,hani@essex.ac.uk,Information Fusion,Type-2 Fuzzy
+A. V. Joshi,anirudha@appliedai.com,Information Fusion,Pattern Matching
+M. Kantardzic,mehmed.kantardzic@louisville.edu,Information Fusion,Data Mining
+V. Lesser,lesser@cs.umass.edu,Information Fusion,Multi-agent Systems
+J. Kacprzyk,kacprzyk@ibspan.waw.pl,Information Fusion,Fuzzy Optimization
+D. Dubois,dubois@irit.fr,Information Fusion,Possibility Theory
+H. Prade,prade@irit.fr,Information Fusion,Approx Reasoning
+G. Klir,gklir@binghamton.edu,Information Fusion,Uncertainty Theory
+Hendrik Blockeel,hendrik.blockeel@cs.kuleuven.be,Machine Learning (EIC),Relational Learning
+Stefan Wrobel,stefan.wrobel@iais.fraunhofer.de,Machine Learning,Data Mining
+Wray Buntine,wray.buntine@monash.edu,Machine Learning,Bayesian Networks
+Johannes Fürnkranz,juffi@faw.uni-linz.ac.at,Machine Learning,Preference Learning
+John Shawe-Taylor,jst@cs.ucl.ac.uk,Machine Learning,Kernel Methods
+Robert Schapire,schapire@microsoft.com,Machine Learning,Boosting
+Pedro Domingos,pedrod@cs.washington.edu,Machine Learning,Markov Logic
+Michael Littman,mlittman@cs.brown.edu,Machine Learning,Reinforcement Learning
+Stuart Russell,russell@cs.berkeley.edu,Machine Learning,AI Foundations
+Peter Norvig,pnorvig@google.com,Machine Learning,Intelligent Agents
+Tom Mitchell,tom.mitchell@cmu.edu,Machine Learning,Theory of ML
+Yishay Mansour,mansour@cs.tau.ac.il,Machine Learning,Algorithms
+Avrim Blum,avrim@ttic.edu,Machine Learning,Computational Theory
+Leslie Kaelbling,lpk@csail.mit.edu,Machine Learning,Planning & Learning
+Tom Dietterich,tgd@cs.orst.edu,Machine Learning,Structured Prediction
+Ray Mooney,mooney@cs.utexas.edu,Machine Learning,Natural Language
+Judea Pearl,judea@cs.ucla.edu,Machine Learning,Causality
+Chris Williams,ckiw@inf.ed.ac.uk,Machine Learning,Gaussian Processes
+Johannes Gehrke,johannes@microsoft.com,Data Mining & Knowledge Disc. (EIC),Database Systems
+Padhraic Smyth,smyth@ics.uci.edu,Data Mining & Knowledge Disc.,Probabilistic Learning
+David Hand,d.j.hand@imperial.ac.uk,Data Mining & Knowledge Disc.,Statistical Data
+Heikki Mannila,heikki.mannila@aalto.fi,Data Mining & Knowledge Disc.,Pattern Discovery
+Usama Fayyad,usama@fayyad.com,Data Mining & Knowledge Disc.,KDD Process
+Gregory Piatetsky-Shapiro,gps@kdnuggets.com,Data Mining & Knowledge Disc.,KD Nuggets
+Ramasamy Uthurusamy,sam@appliedai.com,Data Mining & Knowledge Disc.,Industrial KDD
+Daryl Pregibon,daryl@google.com,Data Mining & Knowledge Disc.,Statistical Computing
+Diane Lambert,dlambert@google.com,Data Mining & Knowledge Disc.,Network Analysis
+Jon Kleinberg,kleinber@cs.cornell.edu,Data Mining & Knowledge Disc.,Social Networks
+Christos Faloutsos,christos@cs.cmu.edu,Data Mining & Knowledge Disc.,Graph Mining
+Ravi Kumar,ravi.k53@gmail.com,Data Mining & Knowledge Disc.,Search Algorithms
+Andrew Tomkins,atomkins@google.com,Data Mining & Knowledge Disc.,Web Mining
+Prabhakar Raghavan,pragh@google.com,Data Mining & Knowledge Disc.,Information Retrieval
+Andrei Broder,abroder@google.com,Data Mining & Knowledge Disc.,Web Search
+Soumen Chakrabarti,soumen@cse.iitb.ac.in,Data Mining & Knowledge Disc.,Web Graphs
+Bing Liu,liub@uic.edu,Data Mining & Knowledge Disc.,Sentiment Analysis
+S. Sarawagi,sunita@cse.iitb.ac.in,Data Mining & Knowledge Disc.,Information Extraction
+Xindong Wu,xindong.wu@louisiana.edu,Knowledge & Info. Systems (EIC),Data Mining
+Benjamin Wah,b-wah@cuhk.edu.hk,Knowledge & Info. Systems,Parallel Processing
+Shusaku Tsumoto,tsumoto@shimane-med.ac.jp,Knowledge & Info. Systems,Medical Informatics
+Tzung-Pei Hong,tphong@nuk.edu.tw,Knowledge & Info. Systems,Soft Computing
+Philip Yu,psyu@uic.edu,Knowledge & Info. Systems,Information Privacy
+Jian Pei,jpei@cs.sfu.ca,Knowledge & Info. Systems,Big Data Analytics
+Luo Si,lsi@purdue.edu,Knowledge & Info. Systems,NLP & IR
+Evimaria Terzi,evimaria@cs.bu.edu,Knowledge & Info. Systems,Social Informatics
+Matthias Jarke,jarke@cs.rwth-aachen.de,Knowledge & Info. Systems,Database Systems
+Klaus-Dieter Althoff,althoff@uni-hildesheim.de,Knowledge & Info. Systems,Case-Based Reasoning
+R. Agrawal,ragrawal@us.ibm.com,Knowledge & Info. Systems,Association Rules
+R. Srikant,srikant@us.ibm.com,Knowledge & Info. Systems,Data Analytics
+H. Mannila,mannila@cs.helsinki.fi,Knowledge & Info. Systems,Algorithms
+H. Toivonen,hannu.toivonen@helsinki.fi,Knowledge & Info. Systems,Probabilistic Discovery
+L. Getoor,getoor@cs.ucsc.edu,Knowledge & Info. Systems,Graph Data
+D. Jensen,jensen@cs.umass.edu,Knowledge & Info. Systems,Causal Discovery
+M. Craven,craven@biostat.wisc.edu,Knowledge & Info. Systems,Biomedical Discovery
+T. Fawcett,tom.fawcett@gmail.com,Knowledge & Info. Systems,Fraud Detection
+F. Provost,fprovost@stern.nyu.edu,Knowledge & Info. Systems,Business Analytics
